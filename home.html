@@ -1,0 +1,91 @@
+<html>
+  <head>
+    <title>MEANINGFUL OBJECTS</title>
+    <meta name="description" content="MEANINGFUL OBJECTS">
+    <meta name="author" content="Angela Wei">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="includes/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script>
+    <script src="accumulate.js"></script>
+  </head>
+
+  <style>
+    body {
+        overflow: hidden;
+    }
+    .row {
+        display: flex;
+        height: 100%;
+    }
+    .column {
+        padding: 3%;
+    }
+    .column:first-child {
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        border-right: 1px solid black;
+    }
+    .column:last-child {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-end;
+    }
+    .cursorImg {
+        position: fixed;
+        pointer-events: none; /* Make the image non-interactive, allowing clicks to reach elements behind it */
+        transition: transform 0.2s ease-out; /* Add a smooth transition effect for image movement */
+        width: 20px;
+        height: auto;
+        z-index: 10;
+    }
+  </style>
+
+  <body>
+    <div class="row">
+        <div class="column">
+            <h1>MEANINGFUL OBJECTS AND THINGS OF THAT NATURE</h1>
+            <h3>23 friends tell me about the objects they find meaningful from childhood and present.
+                This is a web archive of what they shared.</h3>
+        </div>
+        <div class="column">
+            <div class = "linkgroup">
+                <a href="info.html"><h3>MORE INFO</h3></a>
+                <a href="box.html"><h3>ENTER --></h3></a>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        // all images
+        const imagePaths = ['includes/kyla_ring.png', 'includes/megann_eternalyouthgift.png', 'includes/kyla_ring.png', 'includes/kyla_ring.png', 'includes/kyla_ring.png'];
+    
+        // create image element with the "cursorImg" class
+        const imgElement = document.createElement('img');
+        imgElement.className = 'cursorImg'; // add to cursorImg class
+        imgElement.src = getRandomImagePath(); // set initial image
+        document.body.appendChild(imgElement);
+    
+        // Event listener for mouse movement
+        document.addEventListener('mousemove', (event) => {
+        // Update image position to follow the cursor
+        const mouseX = event.clientX;
+        const mouseY = event.clientY;
+        imgElement.style.transform = `translate(${mouseX}px, ${mouseY}px)`;
+    
+        // Change image source on mouse movement
+        imgElement.src = getRandomImagePath();
+        });
+    
+        // Function to get a random image path from the list
+        function getRandomImagePath() {
+        const randomIndex = Math.floor(Math.random() * imagePaths.length);
+        return imagePaths[randomIndex];
+        }
+    </script>
+  </body>
+
+</html>
+

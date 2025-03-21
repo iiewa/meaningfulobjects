@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>MEANINGFUL OBJECTS - BOX</title>
+    <meta name="description" content="MEANINGFUL OBJECTS">
+    <meta name="author" content="Angela Wei">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="includes/styles.css">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script> -->
+    <!-- <script src="accumulate.js"></script> -->
+  </head>
+
+  <style>
+    body {
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    img {
+        height: 208px;
+        
+    }
+    button {
+        background-color: none;
+    }
+    div {
+        display: flex; 
+        flex-flow: column wrap;
+        align-items: center;
+        gap: 40px;
+    }
+  </style>
+
+  <body>
+    <div>
+        <p>CLICK TO OPEN</p>
+        <button onclick = "openBox();"><img id = "boxclosedimg" src="includes/boxclosed.png" alt="a closed cardboard box"></button>
+    </div>
+    
+  </body>
+
+  <script>
+    function openBox() {
+        // change the image to an open box
+        var img = document.getElementById("boxclosedimg");
+        img.src="includes/boxopen.png";
+
+        // wait 2s then redirect to object collection page
+        setTimeout(function () {
+            window.location.href = "objectcollection.html";
+        }, 2000);
+
+        return false;
+    }
+  </script>
+</html>

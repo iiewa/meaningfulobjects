@@ -1,0 +1,590 @@
+<html>
+  <head>
+    <title>MEANINGFUL OBJECTS - COLLECTION</title>
+    <meta name="description" content="MEANINGFUL OBJECTS - COLLECTION">
+    <meta name="author" content="Angela Wei">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="includes/styles.css">
+    <!-- <script src="https://cdn.jsdelivr.net/npm/p5@1.7.0/lib/p5.js"></script> -->
+    <!-- <script src="accumulate.js"></script> -->
+  </head>
+
+  <style>
+    .scrollcontainer {
+        overflow-y: scroll;
+        height: 100vh;
+        scroll-snap-type: y mandatory;
+    }
+    img {
+        display: block;
+    }
+    .square {
+        max-width: 40vw;
+        height: auto;
+    }
+    .horizontal {
+        max-width: 40vw;
+        height: auto;
+    }
+    .vertical {
+        max-height: 60vh;
+        width: auto;
+    }
+    .imgcontainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .row {
+        display: flex;
+        height: 100vh;
+        scroll-snap-align: start;
+    }
+    .column {
+        padding: 3%;
+    }
+    .column:first-child {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        border-right: 1px solid black;
+    }
+    .column:last-child {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .objecttext {
+        margin-top: 3%;
+        display: flex;
+        flex-flow: column wrap;
+        gap: 24px;
+    }
+    .objectspecs {
+        display: flex;
+        flex-flow: row wrap;
+        gap: 32px;
+    }
+    .textblock {
+        display: flex;
+        flex-flow: column wrap;
+        gap: 16px;
+    }
+
+  </style>
+
+  <body>
+    <div class = "scrollcontainer">
+    <!-- hello kitty pillow -->
+    <div class="row">
+        <div class="column">
+            <div class = "backbtn">
+                <a href="objectcollection.html"><h3><-- BACK</h3></a>
+            </div>
+            <div class = "imgcontainer" id = "hellokittypillow">
+                <img class = "obj square" src="includes/katrina_hellokittypillow.png" alt="hello kitty pillow"></a>
+            </div>
+        </div>
+        <div class="column">
+            <div class = "objecttext">
+                <h2>HELLO KITTY PILLOW</h2>
+                <div class = "objectspecs">
+                    <p>16 x 16 "</p>
+                    <p>6209 DAYS</p>
+                    <div class = "textblock">
+                        <p>Taiwan was a super important part of my childhood. I have a lot of fondness for my memories there. It gave me a place to explore being Asian that I didn’t have in New Jersey because I was surrounded by so many white people. I think it’s why I’m so proud to be Taiwanese and Asian, and that pride is something that was given to me.</p>
+                        <p>So, I think that Hello Kitty encapsulates a lot of the nostalgia, happiness, and joy I had of being Taiwanese and having extended family that I could see regularly even if they were on the other side of the world. And yeah, girlhood.</p>    
+                    </div>
+                </div>
+                <div class = "nextbtn">
+                    <a href="objectscroll.html#denimjacket"><h3>NEXT</h3></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jacket -->
+    <div class="row">
+        <div class="column">
+            <div class = "backbtn">
+                <a href="objectcollection.html"><h3><-- BACK</h3></a>
+            </div>
+            <div class = "imgcontainer" id = "denimjacket">
+                <img class = "obj square" src="includes/jess_jacket.png" alt="denim jacket"></a>
+            </div>
+        </div>
+        <div class="column">
+            <div class = "objecttext">
+                <h2>MICKEY MOUSE JACKET</h2>
+                <div class = "objectspecs">
+                    <p>16 x 16 "</p>
+                    <p>6209 DAYS</p>
+                    <div class = "textblock">
+                        <p>I was thrifting with my friend Noah in high school and he bought it for like, $10. And in the parking lot, he was like, I don’t really want this. Do you want it? And I was like, sure. It was such a random exchange. And now it’s a staple. I’ve had it for so long there’s a rip in the back. I like how it makes me feel in the winter—comfortable. But also it’s got such a specific style. It’s perfect.</p>
+                    </div>
+                </div>
+                <div class = "nextbtn">
+                    <a href="objectscroll.html#journal"><h3>NEXT</h3></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- journal -->
+    <div class="row">
+        <div class="column">
+            <div class = "backbtn">
+                <a href="objectcollection.html"><h3><-- BACK</h3></a>
+            </div>
+            <div class = "imgcontainer" id = "journal">
+                <img class = "obj vertical" src="includes/juanita_journal.png" alt="journal"></a>
+            </div>
+        </div>
+        <div class="column">
+            <div class = "objecttext">
+                <h2>JOURNAL</h2>
+                <div class = "objectspecs">
+                    <p>7.5 x 10 ”</p>
+                    <p>690 DAYS</p>
+                    <div class = "textblock">
+                        <p>Dear Self, Self-realization counts as a kind of creation, so don’t worry that you are not writing as much poetry and stories as you used to. Having a regular or even semi-regular personal practice installs a deeply pleasurable peace in your life that is also very hard for you to maintain. One day you will meet people who hit the g(ournal)ym too, and it will feel less like a private humiliation ritual and more like a totally cool thing that cool girls do. There is much crying to do, but so much smiling too! Happy birthday in a figurative sense.</p>
+                    </div>
+                </div>
+                <div class = "nextbtn">
+                    <a href="objectscroll.html#treebark"><h3>NEXT</h3></a>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <!-- tree bark -->
+    <div class="row">
+        <div class="column">
+            <div class = "backbtn">
+                <a href="objectcollection.html"><h3><-- BACK</h3></a>
+            </div>
+            <div class = "imgcontainer" id = "treebark">
+                <img class = "obj vertical" src="includes/ami_treebark.png" alt="tree bark"></a>
+            </div>
+        </div>
+        <div class="column">
+            <div class = "objecttext">
+                <h2>TREE BARK FROM WOODS NEAR OLD HOME</h2>
+                <div class = "objectspecs">
+                    <p>6 x 2 ”</p>
+                    <p>4383 DAYS</p>
+                    <div class = "textblock">
+                        <p>You don’t need to hold on to everything in order for it to still be there.</p>
+                    </div>
+                </div>
+                <div class = "nextbtn">
+                    <a href="objectscroll.html#momring"><h3>NEXT</h3></a>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- MOM'S ENGAGEMENT / WEDDING RING -->
+    <div class="row">
+        <div class="column">
+            <div class = "backbtn">
+                <a href="objectcollection.html"><h3><-- BACK</h3></a>
+            </div>
+            <div class = "imgcontainer" id = "momring">
+                <img class = "obj horizontal" src="includes/anevay_ring.png" alt="engagement / wedding ring"></a>
+            </div>
+        </div>
+        <div class="column">
+            <div class = "objecttext">
+                <h2>MOM'S ENGAGEMENT / WEDDING RING</h2>
+                <div class = "objectspecs">
+                    <p>16 x 16 "</p>
+                    <p>6209 DAYS</p>
+                    <div class = "textblock">
+                        <p>My mom would never let me touch it. So when she gave it to me before I left for college, I felt like she really saw me as a individual and trusted me to go across the country. She was giving me her blessing in so many ways and trusting my opinion and ultimately accepting my sexuality, too.</p>
+                        <p>We weren’t close up until right when I got into Tufts. I was closeted and I was afraid of her and then that finally happened. And things were weird. Of course. But when she gave me this ring, I felt like everything was going to be okay. She trusts me. She accepts me. So this ring is like a symbol of love.</p>
+                        <p>She was also moving on when she gave me this ring, from the marriage and his passing. Grief is something that will ever go away, but she was ready. The next year she started dating her boyfriend.  </p> 
+                    </div>
+                </div>
+                <div class = "nextbtn">
+                    <a href="objectscroll.html#MCAsouvenir"><h3>NEXT</h3></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- CHICAGO MCA GIFT STORE SOUVENIR FOR ETERNAL YOUTH EXHIBITION -->
+    <div class="row">
+        <div class="column">
+            <div class = "backbtn">
+                <a href="objectcollection.html"><h3><-- BACK</h3></a>
+            </div>
+            <div class = "imgcontainer" id = "MCAsouvenir">
+                <img class = "obj vertical" src="includes/megann_eternalyouthgift.png" alt="souvenir from Chicago MCA"></a>
+            </div>
+        </div>
+        <div class="column">
+            <div class = "objecttext">
+                <h2>CHICAGO MCA GIFT STORE SOUVENIR FOR ETERNAL YOUTH EXHIBITION</h2>
+                <div class = "objectspecs">
+                    <p>5 x 11” ”</p>
+                    <p>2190 DAYS</p>
+                    <div class = "textblock">
+                        <p>Document things more - more videos and journals and drawings</p>
+                    </div>
+                </div>
+                <div class = "nextbtn">
+                    <a href="objectscroll.html#bunny"><h3>NEXT</h3></a>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <!-- BABY BJORN BUNNY -->
+    <div class="row">
+        <div class="column">
+            <div class = "backbtn">
+                <a href="objectcollection.html"><h3><-- BACK</h3></a>
+            </div>
+            <div class = "imgcontainer" id = "bunny">
+                <img class = "obj vertical" src="includes/anneke_bunny.png" alt="stuffed bunny"></a>
+            </div>
+        </div>
+        <div class="column">
+            <div class = "objecttext">
+                <h2>BABY BJORN BUNNY</h2>
+                <div class = "objectspecs">
+                    <p>3 x 4 ”</p>
+                    <p>7965 DAYS</p>
+                    <div class = "textblock">
+                        <p>One of his feet is longer than the other one because I used to chew on it but only on that foot. To be loved is to be changed.</p>
+                        <p>One of my favorite books growing up is called Runaway Bunny. I’m obsessed with Miffy. I saw this dead bunny on the side of the street and it really impacted me. I made a painting about it.</p>
+                        <p>I feel very connected to rabbits and I do feel like there’s something there being my first stuffed animal. I still think that sort of symbolism is appealing to me subconsciously.</p>
+                    </div>
+                </div>
+                <div class = "nextbtn">
+                    <a href="objectscroll.html#famphoto"><h3>NEXT</h3></a>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- FAMILY PHOTO -->
+    <div class="row">
+        <div class="column">
+            <div class = "backbtn">
+                <a href="objectcollection.html"><h3><-- BACK</h3></a>
+            </div>
+            <div class = "imgcontainer" id = "famphoto">
+                <img class = "obj vertical" src="includes/hannah_famphoto.png" alt="family photo"></a>
+            </div>
+        </div>
+        <div class="column">
+            <div class = "objecttext">
+                <h2>FAMILY PHOTO</h2>
+                <div class = "objectspecs">
+                    <p>4 x 6 ”</p>
+                    <p>186 DAYS</p>
+                    <div class = "textblock">
+                        <p>Cherish your fading memories, remember who you were, and protect the person you were.</p>
+                    </div>
+                </div>
+                <div class = "nextbtn">
+                    <a href="objectscroll.html#earbuds"><h3>NEXT</h3></a>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- APPLE BRAND WIRED EARBUDS -->
+    <div class="row">
+        <div class="column">
+            <div class = "backbtn">
+                <a href="objectcollection.html"><h3><-- BACK</h3></a>
+            </div>
+            <div class = "imgcontainer" id = "earbuds">
+                <img class = "obj horizontal" src="includes/juanita_earbuds.png" alt="apple earbuds"></a>
+            </div>
+        </div>
+        <div class="column">
+            <div class = "objecttext">
+                <h2>APPLE BRAND WIRED EARBUDS</h2>
+                <div class = "objectspecs">
+                    <p>2 x 1 x 1 ”</p>
+                    <p>3619 DAYS</p>
+                    <div class = "textblock">
+                        <p>Maintain your intense interests in YA novels, they are such fertile grounds for developing your own voice as a writer, and you will have so much in common with so many people in about 8 years’ time. In 2 years, you are going to discover music that is not just popular on the radio, and it is going to change your life in innumerable ways! There are languages you will speak using someone else’s voice (playlists). Also, there is a high probability that one day staying up until midnight will feel quotidian (imagine that). Start putting your iPod on the dresser, not under your pillow, and maybe that day will never come. I love you!</p>
+                    </div>
+                </div>
+                <div class = "nextbtn">
+                    <a href="objectscroll.html#varunbear"><h3>NEXT</h3></a>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- VARUN THE TEDDY BEAR -->
+    <div class="row">
+        <div class="column">
+            <div class = "backbtn">
+                <a href="objectcollection.html"><h3><-- BACK</h3></a>
+            </div>
+            <div class = "imgcontainer" id = "varunbear">
+                <img class = "obj vertical" src="includes/niki_varunbear.png" alt="teddy bear"></a>
+            </div>
+        </div>
+        <div class="column">
+            <div class = "objecttext">
+                <h2>VARUN THE TEDDY BEAR</h2>
+                <div class = "objectspecs">
+                    <p>8 x 4 x 4 ”</p>
+                    <p>8035 DAYS</p>
+                    <div class = "textblock">
+                        <p>Be chiller.</p>
+                    </div>
+                </div>
+                <div class = "nextbtn">
+                    <a href="objectscroll.html#capybaras"><h3>NEXT</h3></a>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- HERD OF MINIATURE CAPYBARAS -->
+    <div class="row">
+        <div class="column">
+            <div class = "backbtn">
+                <a href="objectcollection.html"><h3><-- BACK</h3></a>
+            </div>
+            <div class = "imgcontainer" id = "capybaras">
+                <img class = "obj horizontal" src="includes/aidan_capybaras.png" alt="capybaras"></a>
+            </div>
+        </div>
+        <div class="column">
+            <div class = "objecttext">
+                <h2>HERD OF MINIATURE CAPYBARAS</h2>
+                <div class = "objectspecs">
+                    <p>1 x .5  x .5 ”</p>
+                    <p>3287 DAYS</p>
+                    <div class = "textblock">
+                        <p>Objects don’t matter so much. You should spend your money on food or art supplies instead. That moleskine notebook would have been way more useful.</p>
+                    </div>
+                </div>
+                <div class = "nextbtn">
+                    <a href="objectscroll.html#eecummings"><h3>NEXT</h3></a>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- E.E. CUMMINGS POETRY COLLECTION -->
+    <div class="row">
+        <div class="column">
+            <div class = "backbtn">
+                <a href="objectcollection.html"><h3><-- BACK</h3></a>
+            </div>
+            <div class = "imgcontainer" id = "eecummings">
+                <img class = "obj vertical" src="includes/marisa_eecummings.png" alt="ee cummings poetry collection book"></a>
+            </div>
+        </div>
+        <div class="column">
+            <div class = "objecttext">
+                <h2>E.E. CUMMINGS POETRY COLLECTION</h2>
+                <div class = "objectspecs">
+                    <p>6.5 x 2 x 9.6”</p>
+                    <p>3652 DAYS</p>
+                    <div class = "textblock">
+                        <p>Things are temporary. Be more present.</p>
+                    </div>
+                </div>
+                <div class = "nextbtn">
+                    <a href="objectscroll.html#prayerbeads"><h3>NEXT</h3></a>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- GRANDMOTHER’S PRAYER BEADS -->
+    <div class="row">
+        <div class="column">
+            <div class = "backbtn">
+                <a href="objectcollection.html"><h3><-- BACK</h3></a>
+            </div>
+            <div class = "imgcontainer" id = "prayerbeads">
+                <img class = "obj vertical" src="includes/erin_rosarybeads.png" alt="rosary beads"></a>
+            </div>
+        </div>
+        <div class="column">
+            <div class = "objecttext">
+                <h2>GRANDMOTHER’S PRAYER BEADS</h2>
+                <div class = "objectspecs">
+                    <p>12 x 7 ”</p>
+                    <p>147 DAYS</p>
+                    <div class = "textblock">
+                        <p>I wasn’t close with my grandmother. I met her once my entire life for a couple of days. And then that was it. I was 13. But I feel like you can’t help but feel a connection to people that you’re related to even if you don’t have a personal relationship with them. </p>
+                        <p>I’m not religious and I’m don’t think I’m spiritual either but Buddhism meant a lot to my grandmother and impacted my mother’s childhood. Those things I found myself thinking about.</p>
+                        <p>I mean, I feel like the reasons people attach onto objects when they’re like kids are similar to people’s attachment to objects when they’re older and think these objects have a soul or essence or something like that. So I feel like the reason I like attach meaning onto the beads is like not any different than three year old me attaching meaning onto a moose or something like that. It’s probably the same.</p>
+                    </div>
+                </div>
+                <div class = "nextbtn">
+                    <a href="objectscroll.html#chocsyrup"><h3>NEXT</h3></a>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- HERSHEY'S CHOCOLATE SYRUP -->
+    <div class="row">
+        <div class="column">
+            <div class = "backbtn">
+                <a href="objectcollection.html"><h3><-- BACK</h3></a>
+            </div>
+            <div class = "imgcontainer" id = "chocsyrup">
+                <img class = "obj vertical" src="includes/jess_chocsyrup2.png" alt="Hershey's chocolate syrup"></a>
+            </div>
+        </div>
+        <div class="column">
+            <div class = "objecttext">
+                <h2>HERSHEY'S CHOCOLATE SYRUP</h2>
+                <div class = "objectspecs">
+                    <p>2 x 4 x 9 ”</p>
+                    <p>4759 DAYS</p>
+                    <div class = "textblock">
+                        <p>I used to make chocolate milk with my parents all the time when I was a kid. And my dad’s always really loved chocolate in general. I wouldn’t say we bonded over it, but it’s something that facilitated a lot of quality time between us. Just like really happy memories.One time it was the end of the bottle and I was like, oh, there’s no more like chocolate syrup left. And he was like, but here’s a trick: and he poured the bottle and shook it up. It was the best chocolate milk ever.</p>
+                    </div>
+                </div>
+                <div class = "nextbtn">
+                    <a href="objectscroll.html#house"><h3>NEXT</h3></a>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- CHILDHOOD (AND CURRENT) HOUSE -->
+    <div class="row">
+        <div class="column">
+            <div class = "backbtn">
+                <a href="objectcollection.html"><h3><-- BACK</h3></a>
+            </div>
+            <div class = "imgcontainer" id = "house">
+                <img class = "obj vertical" src="includes/anevay_house.png" alt="a house"></a>
+            </div>
+        </div>
+        <div class="column">
+            <div class = "objecttext">
+                <h2>CHILDHOOD (AND CURRENT) HOUSE</h2>
+                <div class = "objectspecs">
+                    <p>230400 ”</p>
+                    <p>7370 DAYS</p>
+                    <div class = "textblock">
+                        <p>I was raised by my grandmother, my great grandmother who was 92 years old, and my mom is in that house and now we take care of my grandmother so it’s become a full cycle. And that’s the house that my dad lived in before he passed away.</p>
+                        <p>We have a garage that has been accumulating stuff for the past 20-something years. To think that my baby clothes are in in there is so weird. You move on, but the house doesn’t unless you make it. It’s interesting because it means so much but at the same time, it can feel kind of regressive because nothing has changed. </p>
+                        <p>I hope I make enough money soon enough after college to buy my house. Because there’s so much history. Even if I flip it, it can be the same. Even if home becomes a different thing for me, like where I choose to work, where I grew up will always be the same place. And if I I’m going back to the same structure, I won’t go home feeling like a stranger.</p>
+                    </div>
+                </div>
+                <div class = "nextbtn">
+                    <a href="objectscroll.html#pugs"><h3>NEXT</h3></a>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- PUG MINIATURES -->
+    <div class="row">
+        <div class="column">
+            <div class = "backbtn">
+                <a href="objectcollection.html"><h3><-- BACK</h3></a>
+            </div>
+            <div class = "imgcontainer" id = "house">
+                <img class = "obj horizontal" src="includes/angela_pug1.png" alt="a house"></a>
+            </div>
+        </div>
+        <div class="column">
+            <div class = "objecttext">
+                <h2>PUG MINIATURES</h2>
+                <div class = "objectspecs">
+                    <p>1 x 2 ”</p>
+                    <p>3657 DAYS</p>
+                    <div class = "textblock">
+                        <p>Keep making art and finding unadulterated joy in making. Don’t minimize the importance of this joy. Supplement what you’re taught with personal research and reading.</p>
+                    </div>
+                </div>
+                <div class = "nextbtn">
+                    <a href="objectscroll.html#mug"><h3>NEXT</h3></a>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- MUG FROM MADRID -->
+    <div class="row">
+        <div class="column">
+            <div class = "backbtn">
+                <a href="objectcollection.html"><h3><-- BACK</h3></a>
+            </div>
+            <div class = "imgcontainer" id = "mug">
+                <img class = "obj vertical" src="includes/anneke_mug.png" alt="a mug"></a>
+            </div>
+        </div>
+        <div class="column">
+            <div class = "objecttext">
+                <h2>MUG FROM MADRID</h2>
+                <div class = "objectspecs">
+                    <p>3 X 4 "</p>
+                    <p>216 DAYS</p>
+                    <div class = "textblock">
+                        <p>I drink tea pretty much every day so this is something I use a lot. I have a cup in the morning and cup at night or like two cups in the evening.</p>
+                        <p>There’s something about having nice homeware that really elevates the quality of life. The fact that it’s not made by factories, it’s made by hand and I got it in a place that’s special to me. And it’s mine because I establish a relationship with it through use which is nice. I know that a hand that formed this and it like came from the earth. And I think that’s very satisfying. </p>
+                    </div>
+                </div>
+                <div class = "nextbtn">
+                    <a href="objectscroll.html#grandmanecklace"><h3>NEXT</h3></a>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- NECKLACE FROM GRANDMA -->
+    <div class="row">
+        <div class="column">
+            <div class = "backbtn">
+                <a href="objectcollection.html"><h3><-- BACK</h3></a>
+            </div>
+            <div class = "imgcontainer" id = "grandmanecklace">
+                <img class = "obj vertical" src="includes/katrina_necklace.png" alt="a mug"></a>
+            </div>
+        </div>
+        <div class="column">
+            <div class = "objecttext">
+                <h2>NECKLACE FROM GRANDMA</h2>
+                <div class = "objectspecs">
+                    <p>18 "</p>
+                    <p>2191 DAYS</p>
+                    <div class = "textblock">
+                        <p>In high school, I started assigning more meaning to my trips to Taiwan and what it meant to me to be Taiwanese—those politics were not taught to me as a kid.</p>
+                        <p>So this necklace represents how much more seriously I started taking those things. And how it became a symbol of community, power in identity, and political power—not just childhood joy.</p>
+                        <p>I also started realizing how important my grandma was and how important it was to me like connected to her. She took care of me and she raised me and I took a lot of it for granted. And so I started calling her like every day on the way to school and trying to build a more active relationship with her.</p>
+                        <p>I think a lot of times what happens especially in diasporic kids is you grow up and they pass away, so you feel removed from them. Your frames of reference are totally different, and also language barriers are a big part of it.</p>
+                    </div>
+                </div>
+                <div class = "nextbtn">
+                    <a href="objectscroll.html#shawl"><h3>NEXT</h3></a>
+                </div>
+            </div>
+        </div>
+    </div> 
+    <!-- GREAT GRANDMA ESTHER’S SHAWL -->
+    <div class="row">
+        <div class="column">
+            <div class = "backbtn">
+                <a href="objectcollection.html"><h3><-- BACK</h3></a>
+            </div>
+            <div class = "imgcontainer" id = "shawl">
+                <img class = "obj vertical" src="includes/grace_grandmashawl.png" alt="a mug"></a>
+            </div>
+        </div>
+        <div class="column">
+            <div class = "objecttext">
+                <h2>GREAT GRANDMA ESTHER’S SHAWL</h2>
+                <div class = "objectspecs">
+                    <p>16 x 62 ”</p>
+                    <p>1281 DAYS</p>
+                    <div class = "textblock">
+                        <p>Trust that things are going to work out.</p>
+                    </div>
+                </div>
+                <div class = "nextbtn">
+                    <a href="objectscroll.html#shawl"><h3>NEXT</h3></a>
+                </div>
+            </div>
+        </div>
+    </div> 
+    </div>
+  </body>
+
+</html>
