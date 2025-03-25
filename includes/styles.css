@@ -4,18 +4,8 @@ body {
     background-color: #F1EEEA;
 }
 
-@font-face {
-    font-family: 'Nippo-Light';
-    src: url('../fonts/Nippo-Light.woff2') format('woff2'),
-         url('../fonts/Nippo-Light.woff') format('woff'),
-         url('../fonts/Nippo-Light.ttf') format('truetype');
-         font-weight: 300;
-         font-display: swap;
-         font-style: normal;
-}
-
 h1 {
-    font-family: 'Nippo-Light';
+    font-family: 'Tomorrow';
     font-weight: 300;
     font-size: 104px;
     text-align: justify;
@@ -24,28 +14,28 @@ h1 {
 }
 
 h2 {
-    font-family: 'Nippo-Light';
+    font-family: 'Tomorrow';
     font-weight: 300;
     font-size: 48px;
     margin: 0;
 }
 
 h3 {
-    font-family: 'Nippo-Light';
+    font-family: 'Tomorrow';
     font-weight: 300;
     font-size: 20px;
     margin: 0;
 }
 
 p {
-    font-family: 'Nippo-Light';
+    font-family: 'Tomorrow';
     font-weight: 300;
     font-size: 14px;
     margin: 0;
 }
 
 a {
-    font-family: 'Nippo-Light';
+    font-family: 'Tomorrow';
     font-weight: 300;
     color: black;
     text-decoration-line: underline;
